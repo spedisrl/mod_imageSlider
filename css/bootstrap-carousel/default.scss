@@ -1,0 +1,76 @@
+// @Author: SPEDI srl
+// @Date:   19-01-2018
+// @Email:  sviluppo@spedi.it
+// @Last modified by:   SPEDI srl
+// @Last modified time: 19-01-2018
+// @License: GNU/GPL license: http://www.gnu.org/copyleft/gpl.html
+// @Copyright: Copyright (C) SPEDI srl
+
+.hero-carousel{
+  //height: 500px;
+  .carousel,
+  .carousel-inner,
+  .carousel-item{
+    width: 100%;
+    height: 100%;
+  }
+
+  .carousel-item{
+    &::before{
+      content: '';
+      background-image: url('../../images/pattern.png');
+      background-repeat: repeat;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      z-index: 1;
+      top: 0;
+      left: 0;
+    }
+
+    img{
+      position: relative;
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+    }
+
+    .carousel-caption{
+      text-align: left;
+      bottom: 50px;
+      h1, p{
+        color: #fff;
+      }
+    }
+  }
+
+
+  // .carousel-control-prev,
+  // .carousel-control-next{
+  //   // height: 100px;
+  //   // top: auto;
+  //   // bottom: 0px;
+  // }
+  //
+  // .carousel-control-prev{
+  //   // left: 0;
+  // }
+  // .carousel-control-next{
+  //   // left: 5%;
+  // }
+
+  .carousel-indicators{
+    li{
+      text-indent: inherit !important;
+      color: #fff;
+      height: auto;
+      background-color: transparent;
+      cursor: pointer;
+      &.active{
+        font-weight: bold;
+        font-size: 22px;
+        background-color: transparent;
+      }
+    }
+  }
+}
