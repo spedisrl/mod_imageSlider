@@ -10,7 +10,7 @@ Image Slider - Joomla Module (SPEDI srl)
  * [Swiper](http://idangero.us/swiper/)
 
 ## Installazione
- * Per installare Grid Gallery scarica prima lo zip
+ * Per installare Image Slide scarica prima lo zip
  * Accedi al pannello di controllo di Joomla
  * Estensioni > Gestione > Installa
  * Installa il .zip
